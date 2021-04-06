@@ -1,0 +1,75 @@
+/* 1. Posicionamiento -> static, absolute, relative, fixed
+2. Modelo de caja ( Box Model ) -> margin, border, padding, content
+3. Tipografía -> tipos, tamaños de fuente, etc
+4. Visual -> box-shadow, border-radius, gradient, etc
+5. Misceláneos otros -> reglas CSS y más
+
+:root{
+	--font-inter:'Inter', sans-serif;
+	--size-300:300;
+	--size-400:400;
+	--size-500:500;
+	--size-700:700; 
+} */
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --soft-black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+/* header */
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 33.4rem;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header img {
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+}
+.header--title-container {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    /* no puede ser menor que 288px y una vez que llegue a 900px dejará de crecer */
+    height: 21.8rem;
+    margin-top: 4rem;
+    /* Para que logre separarse del logotipo */
+    text-align: center;
+}
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    /* salto de línea o altura de fuente */
+    color: var(--just-white);
+}
+.header--title-container p {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
