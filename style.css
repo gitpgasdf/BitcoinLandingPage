@@ -73,3 +73,32 @@ header img {
     line-height: 1.8rem;
     color: var(--soft-orange);
 }
+.header--title-container .header--button {
+    position: absolute;
+    /* en position absolute puedo moverme en top bottom left right */
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: 27rem;
+    display: block;
+    margin-top: 3.5rem;
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    color: var(--warm-black);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 4px;
+}
+.header--button span {
+    display: inline-block;
+    width: 1.3rem;
+    height: 0.8rem;
+    margin-left: 1rem;
+    background-image: url('./assets/icons/down-arrow.svg');
+    /* el position absolute toma como relative a su padre directo y le da el beneficio de poder posicionarse en cualquier lugar de este padre a pesar de haber otros elementos */
+}
