@@ -102,3 +102,206 @@ header img {
     background-image: url('./assets/icons/down-arrow.svg');
     /* el position absolute toma como relative a su padre directo y le da el beneficio de poder posicionarse en cualquier lugar de este padre a pesar de haber otros elementos */
 }
+/* main */
+/* main exchange */
+main {
+    width: 100%;
+    height: auto;
+}
+.main--exchange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 32rem;
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: var(--off-white)
+}
+.main--exchange-container {
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.main--exchange-imagen {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    background-image: url('./assets/img/Bitcoin.svg');
+    background-size: cover;
+    /* se usa para expandir la imagen respecto a la dimensión del contenedor que en este caso seria el mismo div. Y es verdad que es una buena practica cuando las imágenes que agregamos son de un tamaño superior predefinido. */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: url('./assets/images/bitcoin.svg') center/cover no-repeat; */
+}
+.main--exchange-container h2 {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.main--exchange-container p {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.main--exchange-currency-table {
+    width: 70%;
+    min-width: 23.5rem;
+    max-width: 50rem;
+    height: 31rem;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.main--exchange-currency-table-title {
+    color: #FF9536;
+    padding-left: 3rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: bold;
+    text-align: left;
+}
+.main--exchange-currency-table-container {
+    display: inline-block;
+    width: 90%;
+    min-width: 19rem;
+    max-width: 30rem;
+    height: 18rem;
+    margin: 0 auto;
+}
+.main--exchange-currency-table-container table {
+    width: 100%;
+    height: 100%;
+    background-color: var(--just-white);
+    border-radius: 1.5rem;
+}
+.main--exchange-currency-table-container td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: #B5B0AC;
+    text-align: left;
+    padding: 1.2rem 1.5rem;
+}
+.main--exchange-currency-table-container .table__right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+    text-align: center;
+}
+.main--exchange-currency-table-container span {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    background-image: url('./assets/icons/trending-down.svg');
+    background-repeat: no-repeat;
+}
+.main--exchange-currency-table-container .trending-up {
+    background-image: url('./assets/icons/trending-up.svg');
+}
+.main--exchange-currency-table-container .table__switch {
+    position: absolute;
+    top: 94.2rem;
+    right: 2rem;
+    background-image: url('./assets/icons/right-arrow.svg');
+}
+.main--exchange-currency-table-date {
+    width: 19rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: var(--soft-orange);
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.main--exchange-float {
+    position: absolute;
+    width: 4.1rem;
+    height: 2.5rem;
+    left: 0;
+    right: 0;
+    top: 116.3rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('./assets/icons/batata.svg');
+}
+/* main benefits */
+.main--benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #808080;
+    background-color: var(--warm-black);
+}
+.main--benefist-title h2 {
+    margin: 6rem 1.5rem 0;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.main--benefist-title p {
+    margin: 1rem 1.5rem 1.5rem;
+    padding-top: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.main--benefits-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 28rem;
+    height: 15rem;
+    margin: 2rem;
+    margin-bottom: 0;
+    background-color: var(--soft-black);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+    border-radius: 0.4rem;
+    padding: 0 1.6rem 0 2rem;
+}
+.last-one {
+    margin-bottom: 4.6rem;
+}
+.main--benefits-list h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.main--benefits-list p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.main--benefits-list-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.clock {
+    background-image: url('./assets/icons/clock.svg');
+}
+.eye {
+    background-image: url('./assets/icons/eye.svg');
+}
+.dollar-sign {
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+.check-circle {
+    background-image: url('./assets/icons/check-circle.svg');
+}
