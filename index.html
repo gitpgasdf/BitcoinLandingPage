@@ -28,10 +28,10 @@
                 <h2>Visibilizamos todas las tasas de cambio.</h2>
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
-            <section class="main--exchange-tables">
-                <div class="main--exchange-currency-table">
-                    <p class="main--exchange-currency-table-title">Monedas</p>
-                    <div class="main--exchange-currency-table-container">
+            <section class="main--exchange-tables-slider">
+                <div class="main--exchange-table currency-table">
+                    <p class="main--exchange-table-title currency-table-title">Monedas</p>
+                    <div class="main--exchange-table-container">
                         <table>
                             <tr>
                                 <td class="table__top-left">Bitcoin</td>
@@ -50,13 +50,37 @@
                                 <td class="table__bottom-right table__right">$ 4.96<span></span></td>
                             </tr>
                         </table>
-                        <span class="table__switch"></span>
                     </div>
-                    <div class="main--exchange-currency-table-date">
+                    <div class="main--exchange-table-date currency-table-date">
                         <p><b>Actualizado:</b> 19 Julio 23:45</p>
                     </div>
                 </div>
-                <div></div>
+                <div class="main--exchange-table commission-table">
+                    <p class="main--exchange-table-title commission-table-title">Comisiones</p>
+                    <div class="main--exchange-table-container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Bitrade</td>
+                                <td class=" table__top-right table__right">$ 12.96</td>
+                            </tr>
+                            <tr>
+                                <td>Bitpreco</td>
+                                <td class="table__right">$ 13.07</td>
+                            </tr>
+                            <tr>
+                                <td>Novadax</td>
+                                <td class="table__right">$ 13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Coinext</td>
+                                <td class="table__bottom-right table__right">$ 14.96</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="main--exchange-table-date commission-table-date">
+                        <p><b>Actualizado:</b> 19 Julio 23:48</p>
+                    </div>
+                </div>
             </section>
         </section>
         <section class="main--benefits">
@@ -97,34 +121,42 @@
             </div>
             <section class="main--plans-cards-container-slider">
                 <article class="main--plans-card">
-                    <div>
-                        <h3>Pago por 15 días</h3>
-                        <p class="main--plans-card-price"><sup>$</sup>14</p>
-                        <p class="main--plans-card-price-details">*Pagas $9 más comparado al plan mensual.</p>
-                        <button>Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="main--plans-card">
-                    <p class="main--plans-card-recommended">Recomendado</p>
-                    <div>
-                        <h3>Pago Anual</h3>
-                        <p class="main--plans-card-price"><sup>$</sup>99</p>
-                        <p class="main--plans-card-price-details">*Ahorras $129 comparado al plan mensual.</p>
-                        <button>Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="main--plans-card">
+                    <p class="main--plans-card-title basic-card-title">Básico</p>
                     <div>
                         <h3>Pago mensual</h3>
                         <p class="main--plans-card-price"><sup>$</sup>19</p>
                         <p class="main--plans-card-price-details">*Pagas $129 más comparado al plan anual.</p>
-                        <button>Escoger este <span></span></button>
+                        <button class="main--plans-card-button basic-card-button">Escoger este <span></span></button>
                     </div>
                 </article>
-                <article><p></p></article>
+                <article class="main--plans-card">
+                    <p class="main--plans-card-title recommended-card-title">Recomendado</p>
+                    <div>
+                        <h3>Pago Anual</h3>
+                        <p class="main--plans-card-price"><sup>$</sup>99</p>
+                        <p class="main--plans-card-price-details">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="main--plans-card-button recommended-card-button">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="main--plans-card">
+                    <p class="main--plans-card-title pro-card-title">Pro</p>
+                    <div>
+                        <h3>Pago único</h3>
+                        <p class="main--plans-card-price"><sup>$</sup>349</p>
+                        <p class="main--plans-card-price-details">*Asesorías personalizadas y seguimiento constante.</p>
+                        <button class="main--plans-card-button pro-card-button">Escoger este <span></span></button>
+                    </div>
+                </article>
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer--links">
+            <h2>Linkedin</h2>
+            <h2>Crunchbase</h2>
+            <h2>Hackernews</h2>
+        </div>
+        <div class="footer--logo"></div>
+    </footer>
 </body>
 </html>
