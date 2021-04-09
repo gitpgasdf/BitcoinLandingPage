@@ -1,0 +1,16 @@
+.header {
+    height: 30rem;
+}
+.header--title-container {
+    height: 18rem;
+}
+.main--bitcoin-baby-title {
+    font-size: 4rem;
+}
+.footer--links {
+    padding: 2rem 0;
+}
+.footer--links h2{
+    margin: 2rem 0;
+    font-size: 2rem;
+}

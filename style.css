@@ -260,14 +260,14 @@ main {
     margin-left: auto;
     background-image: url('./assets/icons/batata.svg');
 }
-.main--benefist-title h2 {
+.main--benefits-title h2 {
     margin: 6rem 1.5rem 0;
     text-align: center;
     font-size: 2.4rem;
     line-height: 2.6rem;
     color: var(--just-white);
 }
-.main--benefist-title p {
+.main--benefits-title p {
     margin: 1rem 1.5rem 1.5rem;
     padding-top: 1.5rem;
     font-style: normal;
@@ -372,6 +372,7 @@ main {
     margin: 2.5rem 1rem 6.4rem;
     padding-bottom: 2.5rem;
     min-width: 19rem;
+    max-width: 27rem;
     background-color: var(--just-white);
     box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
     border-radius: 0.8rem;
